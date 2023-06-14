@@ -13,7 +13,6 @@ def logger(old_function):
                        f'аргументы функции - {args, kwargs}\n '
                        f'значение функции - {result}\n\n')
         return result
-
     return new_function
 
 
